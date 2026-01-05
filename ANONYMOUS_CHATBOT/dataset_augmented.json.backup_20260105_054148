@@ -1,0 +1,655 @@
+{
+    "greeting": {
+      "basic": [
+        "Halo 👋 Ada yang bisa saya bantu seputar cybersecurity?",
+        "Hai 👋 Silakan tanya apa saja seputar keamanan siber.",
+        "Halo 👋 Ada yang ingin kamu ketahui tentang cybersecurity?"
+      ],
+      "time_based": [
+        "Selamat pagi ☀️ Ada yang bisa saya bantu?",
+        "Selamat siang 🌤️ Ada pertanyaan seputar keamanan digital?",
+        "Selamat malam 🌙 Ada pertanyaan tentang keamanan digital?"
+      ]
+    },
+
+    "cybersecurity": {
+        "definition": [
+          "Cybersecurity adalah upaya melindungi sistem komputer, jaringan, dan data dari serangan digital, akses tidak sah, dan kerusakan.",
+          "Cybersecurity merupakan praktik keamanan informasi yang bertujuan menjaga kerahasiaan, integritas, dan ketersediaan data.",
+          "Cybersecurity adalah bidang yang berfokus pada perlindungan teknologi informasi dari ancaman siber seperti malware, phishing, dan peretasan."
+        ],
+      
+        "example": [
+          "Contoh penerapan cybersecurity adalah penggunaan firewall dan antivirus untuk melindungi komputer dari serangan malware.",
+          "Perusahaan menerapkan cybersecurity dengan mengenkripsi data pelanggan dan membatasi akses ke sistem internal.",
+          "Penggunaan autentikasi dua faktor (2FA) pada akun email dan media sosial merupakan contoh praktik cybersecurity.",
+          "Backup data secara rutin untuk mencegah kehilangan data akibat serangan ransomware juga termasuk cybersecurity.",
+          "Pelatihan keamanan siber kepada karyawan untuk mencegah phishing adalah bagian dari cybersecurity."
+        ],
+      
+        "process": [
+          "Cybersecurity bekerja dengan mengidentifikasi ancaman, mencegah serangan, mendeteksi aktivitas mencurigakan, dan merespons insiden keamanan.",
+          "Sistem cybersecurity memantau lalu lintas jaringan untuk mendeteksi pola serangan dan memblokir akses berbahaya.",
+          "Proses cybersecurity melibatkan penggunaan teknologi, kebijakan, dan edukasi pengguna untuk mengurangi risiko serangan.",
+          "Ketika serangan terdeteksi, sistem cybersecurity akan melakukan isolasi, analisis, dan pemulihan sistem."
+        ],
+      
+        "impact": [
+          "Tanpa cybersecurity, data pribadi dan perusahaan rentan dicuri, dimanipulasi, atau dihancurkan oleh penyerang.",
+          "Kurangnya cybersecurity dapat menyebabkan kerugian finansial, gangguan operasional, dan rusaknya reputasi organisasi.",
+          "Serangan siber yang tidak tertangani dapat mengakibatkan kebocoran data besar dan sanksi hukum.",
+          "Cybersecurity yang buruk meningkatkan risiko pencurian identitas dan penyalahgunaan informasi pribadi."
+        ],
+      
+        "mitigation": [
+          "Untuk meningkatkan cybersecurity, gunakan password yang kuat dan unik untuk setiap akun.",
+          "Aktifkan autentikasi dua faktor (2FA) pada sistem dan akun penting.",
+          "Selalu perbarui sistem operasi dan aplikasi untuk menutup celah keamanan.",
+          "Gunakan firewall, antivirus, dan sistem deteksi intrusi untuk melindungi jaringan.",
+          "Lakukan backup data secara rutin dan edukasi pengguna tentang ancaman siber."
+        ],
+      
+        "scope": [
+          "Cybersecurity mencakup keamanan jaringan, keamanan aplikasi, keamanan data, dan keamanan endpoint.",
+          "Bidang cybersecurity juga meliputi cloud security, mobile security, dan incident response.",
+          "Cybersecurity tidak hanya soal teknologi, tetapi juga kebijakan dan kesadaran pengguna.",
+          "Manajemen risiko dan kepatuhan regulasi juga termasuk dalam ruang lingkup cybersecurity."
+        ]
+      },       
+  
+    "phishing": {
+      "definition": [
+        "Phishing adalah teknik penipuan siber yang bertujuan mencuri data sensitif dengan menyamar sebagai pihak terpercaya.",
+        "Phishing merupakan serangan siber berbasis rekayasa sosial untuk mengelabui korban agar memberikan data pribadi seperti password, nomor kartu kredit, atau informasi sensitif lainnya.",
+        "Phishing adalah upaya penipuan digital yang menggunakan email, pesan, atau website palsu untuk mengambil informasi penting dari korban."
+      ],
+      "example": [
+        "Contoh phishing: email palsu dari bank yang meminta kamu login melalui link mencurigakan dengan alasan verifikasi akun.",
+        "Email phishing biasanya berisi ancaman seperti 'akun akan diblokir dalam 24 jam' jika tidak segera verifikasi.",
+        "Contoh phishing lain: SMS palsu mengatasnamakan kurir dengan link tracking yang sebenarnya mencuri data.",
+        "Website phishing sering meniru tampilan situs resmi dengan domain yang mirip, seperti g00gle.com atau faceb00k.com.",
+        "WhatsApp phishing biasanya berupa pesan dari nomor tidak dikenal yang mengaku sebagai pihak resmi dan meminta data pribadi."
+      ],
+      "process": [
+        "Phishing bekerja dengan mengirim email atau pesan palsu berisi link atau formulir yang meniru layanan resmi untuk mencuri kredensial login.",
+        "Penyerang phishing membuat website palsu yang sangat mirip dengan situs asli, lalu mengarahkan korban ke sana melalui email atau iklan.",
+        "Tahapan phishing: penyerang mengumpulkan target → membuat konten palsu → mengirim ke korban → mencuri data yang dimasukkan korban.",
+        "Phishing memanfaatkan rasa urgensi dan kepercayaan korban dengan membuat skenario yang meyakinkan seperti hadiah, ancaman, atau notifikasi penting."
+      ],
+      "impact": [
+        "Phishing berbahaya karena dapat menyebabkan pencurian identitas, kerugian finansial, dan kebocoran data pribadi atau perusahaan.",
+        "Dampak phishing meliputi: akses ilegal ke akun, transaksi tidak sah, pencurian data pelanggan, dan rusaknya reputasi bisnis.",
+        "Korban phishing dapat kehilangan uang dari rekening, data pribadi dijual di dark web, dan menjadi target kejahatan lebih lanjut."
+      ],
+      "mitigation": [
+        "Untuk menghindari phishing: jangan klik link sembarangan, selalu periksa alamat pengirim email, dan verifikasi melalui jalur resmi.",
+        "Gunakan autentikasi dua faktor (2FA), perhatikan URL website, dan waspadai email dengan ejaan atau grammar yang aneh.",
+        "Jangan pernah memberikan password atau data sensitif melalui email, SMS, atau telepon tanpa verifikasi langsung ke pihak resmi.",
+        "Instal browser extension anti-phishing, aktifkan email spam filter, dan selalu cek sertifikat SSL website (HTTPS).",
+        "Edukasi diri dan tim tentang ciri-ciri phishing, laporkan email mencurigakan, dan gunakan password manager untuk menghindari input password di situs palsu."
+      ],
+      "variants": [
+        "Spear phishing adalah phishing yang ditargetkan ke individu atau organisasi tertentu dengan informasi personal untuk meningkatkan kredibilitas.",
+        "Whaling adalah phishing yang menargetkan eksekutif tingkat tinggi atau pejabat penting dalam organisasi.",
+        "Vishing (voice phishing) adalah phishing melalui panggilan telepon, biasanya penipu mengaku sebagai bank atau institusi resmi.",
+        "Smishing (SMS phishing) adalah phishing melalui pesan teks dengan link berbahaya atau nomor telepon palsu.",
+        "Clone phishing adalah teknik menduplikasi email sah yang pernah diterima korban, tapi dengan link berbahaya."
+      ]
+    },
+  
+    "malware": {
+      "definition": [
+        "Malware (malicious software) adalah software berbahaya yang dirancang untuk merusak, mencuri data, atau mengendalikan sistem tanpa izin pemilik.",
+        "Malware adalah program jahat yang dapat menginfeksi komputer, smartphone, atau perangkat digital lainnya dengan berbagai tujuan merugikan.",
+        "Malware mencakup berbagai jenis ancaman digital seperti virus, worm, trojan, ransomware, dan spyware yang dapat merusak sistem atau mencuri informasi."
+      ],
+      "example": [
+        "Jenis-jenis malware meliputi: virus (menyebar dan merusak file), worm (replikasi otomatis), trojan (menyamar sebagai program sah), ransomware (mengenkripsi data), spyware (mencuri informasi), dan adware (iklan paksa).",
+        "Contoh malware terkenal: WannaCry (ransomware), Emotet (trojan banking), Pegasus (spyware), dan MyDoom (worm email).",
+        "Rootkit adalah malware yang menyembunyikan keberadaannya di sistem dan memberikan akses tersembunyi kepada penyerang.",
+        "Keylogger adalah malware yang merekam setiap ketikan keyboard untuk mencuri password dan data sensitif.",
+        "Cryptojacker adalah malware yang menggunakan sumber daya komputer korban untuk menambang cryptocurrency tanpa izin."
+      ],
+      "process": [
+        "Malware bekerja dengan masuk ke sistem melalui email attachment, download berbahaya, atau celah keamanan, lalu menjalankan kode jahat tanpa sepengetahuan pengguna.",
+        "Tahapan infeksi malware: infiltrasi (masuk ke sistem) → eksekusi (menjalankan kode jahat) → persistensi (bertahan di sistem) → tujuan akhir (mencuri data/merusak).",
+        "Malware dapat menyebar melalui: USB flash drive yang terinfeksi, software bajakan, iklan berbahaya (malvertising), dan exploit kit yang memanfaatkan celah keamanan.",
+        "Beberapa malware menggunakan teknik polymorphic (berubah bentuk) untuk menghindari deteksi antivirus."
+      ],
+      "impact": [
+        "Dampak malware meliputi: pencurian data pribadi dan finansial, kerusakan sistem operasi, penurunan performa komputer, dan kerugian finansial signifikan.",
+        "Malware berbahaya karena dapat mencuri data, merusak sistem, menyebabkan downtime bisnis, dan membuka celah untuk serangan lebih lanjut.",
+        "Ransomware dapat melumpuhkan operasional perusahaan dengan mengenkripsi semua data penting dan meminta tebusan.",
+        "Spyware dapat memata-matai aktivitas online, mencuri kredensial perbankan, dan melanggar privasi korban.",
+        "Botnet malware dapat mengubah komputer menjadi zombie yang digunakan untuk serangan DDoS atau spam massal."
+      ],
+      "mitigation": [
+        "Gunakan antivirus/antimalware terpercaya, update sistem operasi dan software secara rutin, dan hindari mengunduh file dari sumber tidak terpercaya.",
+        "Aktifkan firewall, lakukan backup data secara berkala, dan gunakan sandboxing untuk menguji file mencurigakan.",
+        "Hindari klik iklan pop-up, jangan install software dari situs tidak resmi, dan scan USB drive sebelum digunakan.",
+        "Gunakan aplikasi dari official store (Google Play/App Store), aktifkan security patch otomatis, dan edukasi pengguna tentang ancaman malware.",
+        "Implementasikan principle of least privilege, gunakan EDR (Endpoint Detection and Response), dan monitor aktivitas sistem secara real-time."
+      ]
+    },
+  
+    "ransomware": {
+      "definition": [
+        "Ransomware adalah jenis malware yang mengenkripsi file korban dan meminta tebusan (ransom) untuk mengembalikan akses ke data tersebut.",
+        "Ransomware adalah ancaman siber yang mengunci atau mengenkripsi data penting dan menuntut pembayaran, biasanya dalam cryptocurrency, untuk memberikan kunci dekripsi.",
+        "Ransomware merupakan salah satu serangan siber paling merusak yang dapat melumpuhkan operasional bisnis hingga berminggu-minggu."
+      ],
+      "example": [
+        "Contoh ransomware terkenal: WannaCry (menyerang 150 negara tahun 2017), Petya/NotPetya, Ryuk, REvil, dan LockBit.",
+        "WannaCry mengeksploitasi kerentanan Windows (EternalBlue) dan menyebar dengan sangat cepat ke ratusan ribu komputer di seluruh dunia.",
+        "Ransomware-as-a-Service (RaaS) memungkinkan penjahat siber tanpa keahlian teknis untuk melancarkan serangan ransomware dengan menyewa tools dari developer."
+      ],
+      "process": [
+        "Cara kerja ransomware: infiltrasi sistem → enkripsi file → tampilkan pesan tebusan → tunggu pembayaran → (kadang) berikan kunci dekripsi.",
+        "Ransomware biasanya masuk melalui phishing email, remote desktop protocol (RDP) yang lemah, atau exploit kit.",
+        "Setelah mengenkripsi file, ransomware menampilkan ransom note dengan instruksi pembayaran dan ancaman akan menghapus data jika tidak dibayar.",
+        "Double extortion ransomware mencuri data sebelum mengenkripsi, lalu mengancam akan mempublikasikan data jika korban tidak membayar."
+      ],
+      "impact": [
+        "Dampak ransomware: kehilangan akses data penting, kerugian finansial (tebusan + downtime), kerusakan reputasi, dan potensi kebocoran data sensitif.",
+        "Organisasi yang terkena ransomware rata-rata mengalami downtime 21 hari dan biaya recovery mencapai jutaan dollar.",
+        "Ransomware dapat menghentikan operasional rumah sakit, pemerintahan, dan infrastruktur kritis dengan konsekuensi yang mengancam nyawa."
+      ],
+      "mitigation": [
+        "Proteksi ransomware: backup data secara teratur (3-2-1 rule), update sistem, segmentasi jaringan, dan training karyawan.",
+        "Jangan membayar tebusan karena tidak ada jaminan data akan dikembalikan dan dapat menjadikan Anda target selanjutnya.",
+        "Gunakan email filtering, disable macro di Office, implementasikan application whitelisting, dan gunakan anti-ransomware tools.",
+        "Buat incident response plan untuk ransomware, lakukan regular security audit, dan test backup restoration secara berkala.",
+        "Implementasikan Zero Trust Architecture, monitor network traffic anomali, dan isolasi sistem yang terinfeksi segera."
+      ]
+    },
+  
+    "social_engineering": {
+      "definition": [
+        "Social engineering adalah manipulasi psikologis untuk menipu orang agar memberikan informasi rahasia atau melakukan tindakan yang mengompromikan keamanan.",
+        "Social engineering mengeksploitasi sifat dasar manusia seperti kepercayaan, rasa takut, dan keinginan membantu untuk mendapatkan akses atau informasi.",
+        "Social engineering adalah seni memanipulasi manusia sebagai weakest link dalam keamanan siber, bukan menyerang sistem teknologi."
+      ],
+      "example": [
+        "Contoh social engineering: penipu yang berpura-pura sebagai petugas bank dan meminta password dengan alasan verifikasi keamanan.",
+        "Pretexting: penyerang membuat skenario palsu yang meyakinkan, seperti mengaku sebagai IT support yang perlu password untuk 'perbaikan sistem'.",
+        "Baiting: meninggalkan USB flash drive berlabel 'Gaji Karyawan 2025' di tempat umum, berharap seseorang akan mencolokkannya ke komputer.",
+        "Tailgating: mengikuti karyawan masuk ke area terlarang dengan berpura-pura lupa kartu akses atau membawa barang banyak.",
+        "Quid pro quo: menawarkan sesuatu (hadiah, bantuan) dengan imbalan informasi, seperti survey palsu yang meminta data pribadi."
+      ],
+      "process": [
+        "Tahapan social engineering: riset target → membangun trust → eksploitasi → eksekusi → exit tanpa meninggalkan jejak.",
+        "Penyerang mengumpulkan informasi dari media sosial, website perusahaan, dan sumber publik lainnya untuk membuat serangan lebih personal dan meyakinkan.",
+        "Social engineering memanfaatkan prinsip psikologi seperti reciprocity (balas budi), authority (otoritas), scarcity (kelangkaan), dan urgency (urgensi)."
+      ],
+      "impact": [
+        "Social engineering berbahaya karena mengeksploitasi kepercayaan manusia, bukan celah teknis, sehingga sulit dideteksi oleh sistem keamanan.",
+        "Dampak social engineering: kebocoran data, akses tidak sah, kerugian finansial, dan dapat menjadi entry point untuk serangan siber yang lebih besar.",
+        "80% dari pelanggaran data melibatkan elemen social engineering, menjadikannya salah satu ancaman siber paling efektif."
+      ],
+      "mitigation": [
+        "Proteksi dari social engineering: edukasi dan awareness training, verifikasi identitas melalui jalur resmi, dan skeptis terhadap permintaan tidak biasa.",
+        "Jangan pernah memberikan password, OTP, atau data sensitif melalui telepon, email, atau pesan tanpa verifikasi pasti.",
+        "Implementasikan security policies yang jelas, gunakan sistem verifikasi berlapis, dan dorong budaya 'verify first' di organisasi.",
+        "Lakukan regular security awareness training, phishing simulation, dan red team exercise untuk menguji kesiapan karyawan.",
+        "Buat prosedur pelaporan incident yang mudah dan non-punitif agar karyawan tidak takut melaporkan kesalahan atau serangan yang hampir berhasil."
+      ]
+    },
+  
+    "password_security": {
+      "definition": [
+        "Password security adalah praktik membuat, menyimpan, dan mengelola password dengan aman untuk melindungi akun dari akses tidak sah.",
+        "Password yang kuat adalah pertahanan pertama dalam keamanan akun digital, mencegah unauthorized access dan identity theft.",
+        "Password security melibatkan penggunaan kombinasi karakter yang kompleks, unik untuk setiap akun, dan disimpan dengan aman."
+      ],
+      "best_practices": [
+        "Password yang kuat minimal 12-16 karakter, kombinasi huruf besar-kecil, angka, dan simbol, serta tidak mengandung informasi pribadi.",
+        "Gunakan password yang berbeda untuk setiap akun agar jika satu akun di-breach, akun lainnya tetap aman.",
+        "Jangan gunakan password seperti '123456', 'password', tanggal lahir, atau nama yang mudah ditebak.",
+        "Gunakan password manager (seperti Bitwarden, 1Password, LastPass) untuk menyimpan dan generate password yang kuat.",
+        "Ganti password secara berkala, terutama untuk akun penting seperti email, banking, dan work accounts."
+      ],
+      "mfa_2fa": [
+        "Multi-Factor Authentication (MFA) atau Two-Factor Authentication (2FA) menambahkan lapisan keamanan dengan meminta verifikasi tambahan selain password.",
+        "Jenis 2FA: SMS OTP (kurang aman), authenticator app (Google Authenticator, Authy), hardware token (YubiKey), dan biometric.",
+        "Aktifkan 2FA di semua akun penting: email, banking, social media, dan work accounts untuk proteksi maksimal.",
+        "Authenticator app lebih aman dari SMS OTP karena tidak rentan terhadap SIM swap attack.",
+        "Simpan backup codes 2FA di tempat aman untuk recovery jika kehilangan akses device."
+      ],
+      "common_attacks": [
+        "Brute force attack: mencoba banyak kombinasi password secara otomatis hingga menemukan yang benar.",
+        "Dictionary attack: menggunakan daftar password umum dan variasi kata kamus untuk menebak password.",
+        "Credential stuffing: menggunakan username dan password yang bocor dari breach untuk mencoba login ke akun lain.",
+        "Password spraying: mencoba password umum (seperti 'Password123') ke banyak akun untuk menghindari account lockout.",
+        "Keylogging: malware yang merekam setiap ketikan keyboard untuk mencuri password saat diketik."
+      ],
+      "mitigation": [
+        "Gunakan passphrase (frase panjang) yang mudah diingat tapi sulit ditebak, seperti 'Saya!Suka@Makan#Pizza7Hari'.",
+        "Enable account lockout policy untuk mencegah brute force attack dengan membatasi jumlah percobaan login gagal.",
+        "Monitor akun untuk aktivitas mencurigakan dan aktifkan notifikasi login dari device baru.",
+        "Jangan share password atau tulis password di tempat yang mudah ditemukan.",
+        "Gunakan password hash yang kuat (bcrypt, Argon2) untuk developer yang menyimpan password user di database."
+      ]
+    },
+  
+    "ddos_attack": {
+      "definition": [
+        "DDoS (Distributed Denial of Service) adalah serangan yang membanjiri server dengan traffic berlebihan dari banyak sumber untuk membuat layanan tidak tersedia.",
+        "DDoS attack bertujuan melumpuhkan website, aplikasi, atau layanan online dengan overwhelming traffic sehingga user legitimate tidak bisa mengakses.",
+        "DDoS menggunakan botnet (jaringan komputer yang di-compromise) untuk mengirim request massal secara bersamaan."
+      ],
+      "types": [
+        "Volumetric attack: membanjiri bandwidth dengan traffic data dalam jumlah sangat besar (Gbps atau Tbps).",
+        "Protocol attack: mengeksploitasi kelemahan layer 3 dan 4 (SYN flood, ping of death) untuk menghabiskan resource server.",
+        "Application layer attack (Layer 7): menargetkan aplikasi web dengan HTTP flood atau Slowloris untuk menguras resource.",
+        "DNS amplification: memanfaatkan DNS server untuk memperbesar traffic serangan hingga 100x lipat.",
+        "NTP amplification: mengeksploitasi Network Time Protocol server untuk amplifikasi serangan."
+      ],
+      "impact": [
+        "Dampak DDoS: downtime layanan, kehilangan revenue, damage reputasi, dan biaya mitigasi yang mahal.",
+        "Website e-commerce yang terkena DDoS dapat kehilangan jutaan rupiah per jam karena tidak bisa melayani transaksi.",
+        "DDoS sering digunakan sebagai smoke screen untuk mengalihkan perhatian saat melakukan serangan lain seperti data breach.",
+        "Serangan DDoS besar dapat melumpuhkan ISP atau infrastruktur internet regional."
+      ],
+      "mitigation": [
+        "Gunakan CDN (Content Delivery Network) seperti Cloudflare, Akamai untuk mendistribusikan traffic dan menyerap serangan.",
+        "Implementasikan rate limiting untuk membatasi jumlah request dari satu IP dalam periode tertentu.",
+        "Gunakan DDoS protection service yang dapat mendeteksi dan memfilter malicious traffic secara real-time.",
+        "Overprovisioning bandwidth dan resource server untuk dapat menangani traffic spike.",
+        "Implementasikan Web Application Firewall (WAF), blackhole routing untuk traffic mencurigakan, dan Anycast network untuk distribusi traffic."
+      ]
+    },
+  
+    "sql_injection": {
+      "definition": [
+        "SQL Injection adalah serangan yang memanfaatkan celah keamanan pada aplikasi web untuk menyisipkan kode SQL berbahaya ke dalam query database.",
+        "SQL Injection terjadi ketika input user tidak divalidasi dengan baik, memungkinkan penyerang memanipulasi query database untuk mengakses, mengubah, atau menghapus data.",
+        "SQL Injection adalah salah satu serangan web paling umum dan berbahaya dalam OWASP Top 10."
+      ],
+      "example": [
+        "Contoh SQL Injection sederhana: memasukkan ' OR '1'='1 di field login untuk bypass authentication.",
+        "Union-based SQL Injection: menggunakan UNION untuk menggabungkan hasil query dan mengekstrak data dari tabel lain.",
+        "Blind SQL Injection: penyerang tidak melihat hasil query langsung tapi menginfer informasi berdasarkan response aplikasi.",
+        "Time-based SQL Injection: menggunakan SLEEP() atau WAITFOR untuk mendeteksi kerentanan berdasarkan response time.",
+        "Second-order SQL Injection: payload disimpan di database dan di-execute saat data tersebut digunakan di query lain."
+      ],
+      "impact": [
+        "Dampak SQL Injection: kebocoran data sensitif (password, credit card, PII), manipulasi data, penghapusan database, dan unauthorized admin access.",
+        "SQL Injection dapat mengekspos seluruh database termasuk data pelanggan, transaksi finansial, dan informasi rahasia perusahaan.",
+        "Penyerang dapat menggunakan SQL Injection untuk upload backdoor, mengambil alih server, dan melakukan lateral movement."
+      ],
+      "mitigation": [
+        "Gunakan Prepared Statements dan Parameterized Queries untuk memisahkan kode SQL dari data user.",
+        "Implementasikan input validation yang ketat: whitelist allowed characters, escape special characters, dan gunakan ORM (Object-Relational Mapping).",
+        "Terapkan principle of least privilege: database user aplikasi hanya punya permission minimal yang dibutuhkan.",
+        "Gunakan Web Application Firewall (WAF) untuk mendeteksi dan memblokir SQL Injection attempts.",
+        "Regular security testing dengan SAST/DAST tools, penetration testing, dan code review untuk menemukan vulnerability."
+      ]
+    },
+  
+    "xss_attack": {
+      "definition": [
+        "XSS (Cross-Site Scripting) adalah serangan yang menyisipkan script berbahaya (biasanya JavaScript) ke dalam website untuk dieksekusi di browser korban.",
+        "XSS memungkinkan penyerang mencuri cookies, session tokens, atau melakukan tindakan atas nama korban di website yang vulnerable.",
+        "XSS termasuk dalam OWASP Top 10 dan merupakan salah satu vulnerability paling umum di aplikasi web."
+      ],
+      "types": [
+        "Stored XSS (Persistent): script berbahaya disimpan di database dan dieksekusi setiap kali halaman dimuat, sangat berbahaya.",
+        "Reflected XSS (Non-Persistent): script di-inject melalui URL atau form dan langsung di-reflect ke user, biasanya via phishing link.",
+        "DOM-based XSS: vulnerability di client-side JavaScript yang memanipulasi DOM tanpa melibatkan server.",
+        "Blind XSS: payload XSS disimpan tapi dieksekusi di area yang tidak terlihat korban, seperti admin panel atau log viewer.",
+        "Self-XSS: menipu korban untuk paste script berbahaya ke browser console mereka sendiri, sering digunakan dalam social engineering."
+      ],
+      "impact": [
+        "Dampak XSS: pencurian session cookies (session hijacking), defacement website, redirect ke phishing site, dan keylogging di browser.",
+        "XSS dapat digunakan untuk mengubah tampilan website, mencuri kredensial login, atau menyebarkan malware.",
+        "Stored XSS sangat berbahaya karena dapat menginfeksi banyak user dan bertahan hingga vulnerability dipatch."
+      ],
+      "mitigation": [
+        "Sanitize dan encode user input sebelum di-render: gunakan HTML entity encoding, JavaScript encoding, URL encoding tergantung konteks.",
+        "Implementasikan Content Security Policy (CSP) untuk membatasi sumber script yang boleh dieksekusi di halaman.",
+        "Gunakan HttpOnly flag pada cookies untuk mencegah akses via JavaScript, dan Secure flag untuk HTTPS only.",
+        "Validasi input di server-side (never trust client-side validation alone), gunakan template engine yang auto-escape output.",
+        "Regular security scanning dengan tools seperti Burp Suite, OWASP ZAP, dan code review untuk deteksi XSS vulnerability."
+      ]
+    },
+  
+    "zero_day_vulnerability": {
+      "definition": [
+        "Zero-day vulnerability adalah celah keamanan dalam software yang belum diketahui oleh vendor atau belum ada patch-nya.",
+        "Zero-day exploit adalah serangan yang memanfaatkan zero-day vulnerability sebelum developer sempat memperbaikinya.",
+        "Disebut 'zero-day' karena developer punya nol hari untuk memperbaiki sejak vulnerability discovered atau exploited."
+      ],
+      "characteristics": [
+        "Zero-day sangat berberharga di black market dan sering digunakan oleh advanced persistent threat (APT) groups atau nation-state actors.",
+        "Zero-day exploit sulit dideteksi karena signature-nya belum ada di antivirus atau IDS/IPS.",
+        "Contoh zero-day terkenal: Stuxnet (menyerang centrifuge nuklir Iran), EternalBlue (digunakan WannaCry), Pegasus spyware.",
+        "Bug bounty programs mendorong researcher menemukan dan melaporkan zero-day secara responsible sebelum dieksploitasi."
+      ],
+      "impact": [
+        "Zero-day sangat berbahaya karena tidak ada defense yang tersedia saat dieksploitasi, memberi penyerang full advantage.",
+        "Organisasi besar sering menjadi target zero-day karena dapat menyebabkan data breach massal atau sabotase infrastruktur kritis.",
+        "Zero-day di software populer seperti Windows, Chrome, atau iOS dapat mengancam jutaan user sekaligus."
+      ],
+      "mitigation": [
+        "Mitigasi zero-day: gunakan security in depth (multiple layers), monitor anomali behavior, dan segmentasi network.",
+        "Implementasikan application whitelisting, sandbox untrusted programs, dan gunakan HIDS/HIPS untuk deteksi exploit attempts.",
+        "Regular update dan patch management untuk meminimalkan window of exposure saat patch dirilis.",
+        "Threat intelligence sharing dan SIEM untuk early warning tentang emerging threats.",
+        "Virtual patching via WAF atau IPS untuk proteksi sementara sebelum official patch tersedia."
+      ]
+    },
+  
+    "man_in_the_middle": {
+      "definition": [
+        "Man-in-the-Middle (MitM) attack adalah serangan dimana penyerang menyadap komunikasi antara dua pihak tanpa sepengetahuan mereka.",
+        "MitM memungkinkan penyerang membaca, memodifikasi, atau menginjeksi data ke dalam komunikasi yang seharusnya privat.",
+        "MitM attack mengeksploitasi kurangnya enkripsi atau autentikasi dalam komunikasi network."
+      ],
+      "types": [
+        "ARP Spoofing: memanipulasi ARP table untuk redirect traffic melalui device penyerang di local network.",
+        "DNS Spoofing: mengubah DNS response untuk redirect korban ke fake website yang dikontrol penyerang.",
+        "SSL Stripping: downgrade HTTPS connection menjadi HTTP untuk intercept data dalam plaintext.",
+        "Wi-Fi Eavesdropping: membuat fake Wi-Fi hotspot atau monitoring unencrypted Wi-Fi traffic.",
+        "Session Hijacking: mencuri session token dari unencrypted connection untuk impersonate user."
+      ],
+      "scenarios": [
+        "Contoh MitM: penyerang membuat Wi-Fi hotspot palsu 'Free Airport WiFi' untuk intercept traffic pengunjung.",
+        "Di cafe dengan WiFi publik tanpa enkripsi, penyerang bisa menyadap login credentials dan browsing activity.",
+        "SSL Stripping attack di public WiFi: korban mengakses http://bank.com lalu penyerang prevent upgrade ke HTTPS.",
+        "Email hijacking via compromised router atau ISP untuk intercept OTP atau password reset link."
+      ],
+      "impact": [
+        "Dampak MitM: pencurian kredensial, data pribadi, informasi finansial, atau company secrets yang ditransmisikan.",
+        "MitM dapat menyebabkan identity theft, unauthorized transactions, atau espionage.",
+        "Serangan MitM di corporate network dapat mengekspos intellectual property, trade secrets, atau classified information."
+      ],
+      "mitigation": [
+        "Gunakan VPN saat connect ke public Wi-Fi untuk encrypt semua traffic.",
+        "Selalu gunakan HTTPS (bukan HTTP), aktifkan HSTS (HTTP Strict Transport Security), dan perhatikan certificate warnings.",
+        "Gunakan certificate pinning di aplikasi mobile untuk prevent fake certificates.",
+        "Hindari public Wi-Fi untuk transaksi sensitif, gunakan data seluler atau trusted network.",
+        "Implementasikan mutual TLS authentication, monitor untuk ARP spoofing, dan gunakan encrypted protocols (SSH, SFTP, bukan Telnet/FTP)."
+      ]
+    },
+  
+    "comparison_questions": {
+      "phishing_vs_malware": [
+        "Perbedaan phishing dan malware: phishing menipu korban untuk menyerahkan data, sedangkan malware adalah software berbahaya yang menginfeksi sistem.",
+        "Phishing adalah social engineering attack yang mengandalkan human error, sementara malware adalah technical attack yang mengeksploitasi sistem.",
+        "Phishing tidak memerlukan instalasi apapun di device korban, malware harus diinstall atau dieksekusi di sistem target.",
+        "Keduanya sering digabungkan: email phishing yang berisi malware attachment untuk double impact."
+      ],
+      "phishing_vs_social_engineering": [
+        "Phishing adalah subset dari social engineering yang spesifik menggunakan komunikasi digital (email, SMS, website palsu).",
+        "Social engineering mencakup teknik yang lebih luas termasuk interaksi langsung, telepon, atau physical access manipulation.",
+        "Phishing berfokus pada pencurian kredensial atau data digital, sedangkan social engineering bisa bertujuan physical access, informasi rahasia, atau tindakan tertentu.",
+        "Kedua metode sama-sama mengeksploitasi psikologi manusia, tapi phishing lebih scalable karena bisa otomatis ke ribuan target."
+      ],
+      "virus_vs_worm": [
+        "Virus memerlukan host file dan aksi manusia untuk menyebar (seperti membuka attachment), sedangkan worm menyebar otomatis tanpa intervensi manusia.",
+        "Worm dapat replikasi sendiri melalui network vulnerabilities, virus perlu di-attach ke file atau program.",
+        "Worm lebih cepat menyebar dan lebih destructive dalam skala besar, seperti Code Red atau SQL Slammer yang menginfeksi ribuan sistem dalam jam.",
+        "Virus biasanya merusak atau mengubah file, worm fokus pada replikasi dan network propagation."
+      ],
+      "trojan_vs_virus": [
+        "Trojan menyamar sebagai software legitimate dan tidak mereplikasi diri, virus mereplikasi dan menyebar ke file lain.",
+        "Trojan mengandalkan social engineering untuk membuat user menginstall-nya, virus menyebar secara otomatis setelah eksekusi.",
+        "Trojan sering membuka backdoor untuk remote access, virus lebih fokus pada destruction atau disruption.",
+        "Contoh trojan: fake antivirus software, virus: file infector yang menyebar ke semua .exe files."
+      ],
+      "ransomware_vs_malware": [
+        "Ransomware adalah jenis spesifik dari malware yang mengenkripsi data dan meminta tebusan.",
+        "Malware adalah istilah umum untuk semua software jahat (termasuk ransomware, virus, trojan, spyware).",
+        "Ransomware memiliki monetary motive yang jelas, malware lain bisa bertujuan destruction, espionage, atau botnet creation.",
+        "Ransomware adalah salah satu malware paling profitable untuk cybercriminal dan paling disruptive untuk bisnis."
+      ],
+      "spyware_vs_adware": [
+        "Spyware mencuri informasi pribadi tanpa sepengetahuan user, adware menampilkan iklan tidak diinginkan secara agresif.",
+        "Spyware lebih berbahaya karena dapat mencuri password, credit card info, dan browsing habits, adware lebih annoying tapi kurang invasive.",
+        "Adware biasanya bundled dengan freeware, spyware sering masuk via malicious downloads atau exploits.",
+        "Keduanya dapat memperlambat sistem, tapi spyware punya privacy dan security implications yang lebih serius."
+      ],
+      "ddos_vs_dos": [
+        "DoS (Denial of Service) berasal dari single source, DDoS (Distributed DoS) berasal dari banyak sumber (botnet).",
+        "DDoS jauh lebih powerful dan sulit diblock karena traffic datang dari ribuan IP addresses berbeda.",
+        "DoS bisa diblok dengan blacklist IP penyerang, DDoS memerlukan sophisticated mitigation seperti CDN atau DDoS protection service.",
+        "DDoS modern dapat mencapai terabit per second (Tbps) traffic, jauh melebihi kapasitas DoS tradisional."
+      ],
+      "black_hat_vs_white_hat": [
+        "Black hat hacker melakukan illegal hacking untuk keuntungan pribadi atau merusak, white hat hacker (ethical hacker) melakukan security testing dengan izin.",
+        "White hat bekerja untuk meningkatkan security dengan menemukan dan melaporkan vulnerabilities secara responsible.",
+        "Grey hat hacker berada di antara: mungkin hack tanpa izin tapi melaporkan findings tanpa niat jahat.",
+        "Bug bounty programs mempekerjakan white hat hackers untuk menemukan vulnerabilities sebelum dieksploitasi black hat."
+      ],
+      "http_vs_https": [
+        "HTTP (HyperText Transfer Protocol) mengirim data dalam plaintext, HTTPS (HTTP Secure) mengenkripsi data dengan SSL/TLS.",
+        "HTTPS melindungi dari eavesdropping dan man-in-the-middle attacks, HTTP tidak punya proteksi apapun.",
+        "Website dengan HTTPS menunjukkan padlock icon di browser, menandakan connection aman dan identity terverifikasi.",
+        "HTTPS sekarang adalah standard untuk semua website, terutama yang handle data sensitif (login, payment, personal info).",
+        "SEO Google memprioritaskan HTTPS sites, dan browsers modern menandai HTTP sites sebagai 'Not Secure'."
+      ],
+      "vpn_vs_proxy": [
+        "VPN mengenkripsi semua traffic dari device, proxy hanya redirect traffic aplikasi tertentu tanpa enkripsi by default.",
+        "VPN lebih secure dan melindungi privacy lebih baik, proxy lebih cepat tapi kurang secure.",
+        "VPN bekerja di OS level dan protect semua aplikasi, proxy di-configure per aplikasi.",
+        "VPN ideal untuk security dan privacy, proxy cocok untuk bypass geo-restrictions dengan speed priority.",
+        "VPN commercial services (NordVPN, ExpressVPN) offer anonymity dan encryption, free proxies sering track atau inject ads."
+      ],
+      "firewall_vs_antivirus": [
+        "Firewall mengontrol traffic network (inbound/outbound), antivirus mendeteksi dan menghapus malware di sistem.",
+        "Firewall adalah preventive measure yang block unauthorized access, antivirus adalah detective/reactive measure yang scan existing threats.",
+        "Firewall protect dari network-based attacks, antivirus protect dari file-based threats.",
+        "Kedua dibutuhkan untuk layered security: firewall sebagai first line of defense, antivirus sebagai backup jika malware masuk.",
+        "Next-generation firewall (NGFW) menggabungkan traditional firewall dengan IPS, application awareness, dan advanced threat protection."
+      ],
+      "encryption_vs_hashing": [
+        "Encryption adalah two-way process (dapat di-decrypt dengan key), hashing adalah one-way process (tidak bisa reversed).",
+        "Encryption untuk menyimpan/mengirim data secara confidential, hashing untuk verify integrity dan store passwords secara secure.",
+        "Contoh encryption: AES, RSA untuk encrypt files atau communications. Contoh hashing: SHA-256, bcrypt untuk password hashing.",
+        "Encryption key harus disimpan secure karena bisa decrypt data, hash tidak memerlukan key storage.",
+        "Hash collision (dua input menghasilkan hash sama) adalah vulnerability, encryption tidak punya issue ini."
+      ],
+      "public_key_vs_private_key": [
+        "Public key cryptography (asymmetric encryption) menggunakan sepasang keys: public key untuk encrypt, private key untuk decrypt.",
+        "Public key boleh dibagikan ke siapa saja, private key harus dijaga secret dan hanya dimiliki pemilik.",
+        "Contoh penggunaan: SSL/TLS certificates, PGP email encryption, SSH authentication, cryptocurrency wallets.",
+        "Symmetric encryption menggunakan single key untuk encrypt dan decrypt, lebih cepat tapi perlu secure key exchange.",
+        "RSA, ECC adalah algoritma public key cryptography. AES, DES adalah symmetric encryption algorithms."
+      ],
+      "ids_vs_ips": [
+        "IDS (Intrusion Detection System) hanya mendeteksi dan alert pada serangan, IPS (Intrusion Prevention System) mendeteksi dan secara aktif block serangan.",
+        "IDS bersifat passive monitoring, IPS bersifat active protection dan dapat drop malicious packets.",
+        "IDS tidak mempengaruhi traffic flow dan tidak ada risk blocking legitimate traffic, IPS bisa cause false positives yang block valid connections.",
+        "IDS cocok untuk analysis dan forensics, IPS cocok untuk real-time protection.",
+        "Modern security sering menggunakan IDPS (combined IDS/IPS) dengan multiple detection methods: signature-based, anomaly-based, dan behavioral analysis."
+      ],
+      "vulnerability_vs_exploit": [
+        "Vulnerability adalah weakness atau flaw dalam sistem, exploit adalah code atau technique yang memanfaatkan vulnerability tersebut.",
+        "Vulnerability hanya potensi masalah, exploit adalah actual attack implementation.",
+        "Contoh: SQL Injection adalah vulnerability, script yang inject malicious SQL adalah exploit.",
+        "CVE (Common Vulnerabilities and Exposures) adalah database public vulnerabilities, exploit kadang tersedia di Exploit-DB atau Metasploit.",
+        "Vulnerability bisa exist tanpa exploit known (unpatched but not exploited), atau sudah ada exploit-nya (actively exploited in the wild)."
+      ],
+      "backup_vs_disaster_recovery": [
+        "Backup adalah proses copy data untuk recovery jika kehilangan, disaster recovery adalah comprehensive plan untuk restore seluruh operasional bisnis.",
+        "Backup fokus pada data restoration, disaster recovery mencakup infrastructure, applications, workflows, dan business continuity.",
+        "Backup adalah part of disaster recovery plan, bukan replacement for complete DR strategy.",
+        "RTO (Recovery Time Objective) dan RPO (Recovery Point Objective) adalah metrics penting dalam disaster recovery planning.",
+        "Best practice: follow 3-2-1 backup rule (3 copies, 2 different media, 1 offsite), dan regular test disaster recovery procedures."
+      ],
+      "penetration_testing_vs_vulnerability_assessment": [
+        "Vulnerability assessment scan untuk identify weaknesses, penetration testing aktif exploit vulnerabilities untuk assess real-world impact.",
+        "Vuln assessment adalah automated scan yang comprehensive tapi surface-level, pentest adalah manual deep-dive yang simulate actual attack.",
+        "Vulnerability assessment lebih frequent (weekly/monthly), penetration testing lebih jarang (quarterly/annually) karena resource intensive.",
+        "Pentest memberikan proof-of-concept exploit dan demonstrate business impact, vuln scan hanya list potential issues.",
+        "Kombinasi keduanya ideal: vuln scan untuk continuous monitoring, pentest untuk periodic deep security validation."
+      ],
+      "ssl_vs_tls": [
+        "SSL (Secure Sockets Layer) adalah predecessor dari TLS (Transport Layer Security), keduanya protokol enkripsi untuk secure communication.",
+        "SSL sudah deprecated karena vulnerabilities (SSLv2, SSLv3), TLS adalah standard modern yang lebih secure (TLS 1.2, TLS 1.3).",
+        "Meskipun disebut 'SSL certificate', yang sebenarnya digunakan adalah TLS protocol.",
+        "TLS 1.3 (2018) adalah versi terbaru: lebih cepat, lebih secure, dan menghilangkan outdated cryptographic algorithms.",
+        "Browser modern otomatis negotiate TLS version tertinggi yang disupport kedua belah pihak."
+      ]
+    },
+  
+    "cybersecurity_careers": {
+      "roles": [
+        "Security Analyst: monitor systems untuk threats, analyze security logs, respond to incidents, dan conduct security assessments.",
+        "Penetration Tester (Ethical Hacker): simulate attacks untuk find vulnerabilities sebelum real attackers exploit them.",
+        "Security Engineer: design dan implement security architecture, manage firewalls, IDS/IPS, dan security tools.",
+        "Incident Responder: investigate security breaches, contain threats, recover systems, dan conduct forensics analysis.",
+        "Security Architect: design comprehensive security frameworks, define security policies, dan ensure security best practices.",
+        "Malware Analyst: reverse engineer malware untuk understand behavior, create signatures, dan develop countermeasures.",
+        "Cloud Security Specialist: secure cloud infrastructure (AWS, Azure, GCP), implement IAM, dan cloud-native security tools.",
+        "Cryptographer: develop encryption algorithms, secure communication protocols, dan cryptographic systems.",
+        "Forensics Analyst: investigate cybercrime, analyze digital evidence, dan support legal proceedings."
+      ],
+      "skills": [
+        "Technical skills penting: networking (TCP/IP, DNS, routing), operating systems (Linux, Windows), programming (Python, bash, PowerShell).",
+        "Security tools expertise: Wireshark, Metasploit, Burp Suite, Nmap, SIEM platforms, IDS/IPS.",
+        "Understanding of: cryptography, web application security, network security, cloud security, compliance frameworks (ISO 27001, NIST).",
+        "Soft skills critical: problem-solving, analytical thinking, attention to detail, communication, continuous learning.",
+        "Certifications valuable: CISSP, CEH, OSCP, Security+, CISM, GIAC certifications."
+      ],
+      "learning_path": [
+        "Mulai dengan fundamentals: networking basics, Linux, programming (Python recommended).",
+        "Pelajari security concepts: CIA triad, threat modeling, OWASP Top 10, common attacks dan defenses.",
+        "Hands-on practice: TryHackMe, HackTheBox, PentesterLab untuk practical experience.",
+        "Get certified: mulai dengan CompTIA Security+ atau CEH untuk foundational knowledge.",
+        "Specialize: pilih area focus seperti penetration testing, malware analysis, cloud security, atau forensics.",
+        "Stay updated: follow security blogs, podcasts, CVE databases, dan participate di security communities.",
+        "Contribute: bug bounty programs, open source security projects, atau write security tools."
+      ]
+    },
+  
+    "emerging_threats": {
+      "ai_powered_attacks": [
+        "AI digunakan untuk automate dan scale phishing campaigns dengan personalized content yang lebih convincing.",
+        "Deepfake technology dapat membuat fake videos atau audio untuk impersonate executives dalam social engineering attacks.",
+        "AI-powered password cracking dapat learn patterns dan crack passwords lebih cepat dari traditional methods.",
+        "Adversarial machine learning: manipulate AI systems untuk produce incorrect outputs atau bypass security controls.",
+        "Autonomous malware dengan AI capabilities dapat adapt behavior untuk evade detection dan optimize attack strategies."
+      ],
+      "iot_security": [
+        "IoT devices sering punya weak default credentials, lack of updates, dan insufficient security features.",
+        "Mirai botnet menggunakan millions of compromised IoT devices untuk DDoS attacks terbesar dalam sejarah.",
+        "Smart home devices dapat di-hack untuk surveillance, data theft, atau sebagai entry point ke network.",
+        "Industrial IoT (IIoT) vulnerabilities dapat mengancam critical infrastructure seperti power grids atau manufacturing.",
+        "IoT security challenges: resource constraints, diverse ecosystem, lack of standards, dan difficulty in patching."
+      ],
+      "supply_chain_attacks": [
+        "Supply chain attacks menargetkan third-party vendors atau software dependencies untuk compromise end users.",
+        "SolarWinds attack (2020) mengkompromikan software updates yang digunakan ribuan organisasi termasuk government agencies.",
+        "NPM, PyPI, dan package repositories sering ditarget untuk inject malicious code ke popular libraries.",
+        "Hardware supply chain attacks: compromised firmware atau backdoors di chips dari manufacturing.",
+        "Mitigation: vet vendors carefully, software composition analysis, zero trust architecture, dan continuous monitoring."
+      ],
+      "quantum_computing_threat": [
+        "Quantum computers akan dapat break current encryption algorithms (RSA, ECC) yang melindungi most digital communications.",
+        "Post-quantum cryptography sedang dikembangkan untuk resist quantum computing attacks.",
+        "Harvest now, decrypt later: adversaries mengumpulkan encrypted data sekarang untuk decrypt di masa depan dengan quantum computers.",
+        "Timeline: experts predict quantum computers capable of breaking RSA-2048 dalam 10-20 tahun.",
+        "Organizations perlu prepare dengan transition ke quantum-resistant algorithms dan assess long-term data sensitivity."
+      ],
+      "cloud_security_challenges": [
+        "Misconfigurations adalah leading cause of cloud breaches: misconfigured S3 buckets, exposed databases, overly permissive IAM roles.",
+        "Shared responsibility model: cloud provider secure infrastructure, customer secure data dan applications.",
+        "Data sovereignty dan compliance issues: data location, cross-border data transfer, GDPR compliance.",
+        "Container security: vulnerabilities dalam Docker images, Kubernetes misconfigurations, supply chain attacks.",
+        "Best practices: implement least privilege, enable logging dan monitoring, encrypt data at rest dan in transit, regular security audits."
+      ]
+    },
+  
+    "incident_response": {
+      "phases": [
+        "Preparation: develop IR plan, train team, setup tools dan communication channels, define roles and responsibilities.",
+        "Identification: detect dan confirm security incident melalui alerts, logs, atau reports.",
+        "Containment: isolate affected systems untuk prevent spread (short-term containment) dan implement long-term fixes.",
+        "Eradication: remove threat dari environment, patch vulnerabilities, delete malware.",
+        "Recovery: restore systems ke normal operations, monitor untuk recurrence.",
+        "Lessons Learned: post-incident review untuk identify improvements dan update IR plan."
+      ],
+      "best_practices": [
+        "Have IR team on standby 24/7, dengan clear escalation procedures dan contact information.",
+        "Document everything: actions taken, timeline, evidence collected untuk forensics dan legal purposes.",
+        "Preserve evidence: create forensic images, maintain chain of custody, avoid contaminating evidence.",
+        "Communicate appropriately: internal stakeholders, legal team, law enforcement (if required), public (for PR).",
+        "Don't pay ransomware: no guarantee of decryption, funds terrorism, encourage more attacks.",
+        "Regular IR drills dan tabletop exercises untuk test plan effectiveness."
+      ],
+      "tools": [
+        "SIEM (Security Information and Event Management): Splunk, ELK Stack, IBM QRadar untuk centralized logging dan analysis.",
+        "EDR (Endpoint Detection and Response): CrowdStrike, Carbon Black, SentinelOne untuk endpoint monitoring.",
+        "Forensics tools: EnCase, FTK, Autopsy untuk digital forensics investigation.",
+        "Network analysis: Wireshark, tcpdump, NetworkMiner untuk packet capture dan analysis.",
+        "Malware analysis: IDA Pro, Ghidra, REMnux untuk reverse engineering."
+      ]
+    },
+  
+    "compliance_frameworks": {
+      "iso_27001": [
+        "ISO 27001 adalah international standard untuk Information Security Management System (ISMS).",
+        "Mencakup 114 controls dalam 14 domains seperti access control, cryptography, incident management.",
+        "Certification process: gap analysis, risk assessment, implement controls, internal audit, certification audit.",
+        "Benefits: demonstrate commitment to security, competitive advantage, improve security posture, regulatory compliance."
+      ],
+      "gdpr": [
+        "GDPR (General Data Protection Regulation) adalah EU privacy law yang protect personal data EU citizens.",
+        "Key requirements: lawful basis for processing, data minimization, right to erasure, data breach notification (72 hours), DPO appointment.",
+        "Violations dapat result in fines hingga €20 million atau 4% global annual revenue.",
+        "Applies to: any organization yang process data dari EU residents, regardless company location.",
+        "Key principles: transparency, purpose limitation, storage limitation, integrity and confidentiality."
+      ],
+      "pci_dss": [
+        "PCI DSS (Payment Card Industry Data Security Standard) protect credit card data.",
+        "12 requirements meliputi: firewall configuration, encryption, access control, monitoring, testing.",
+        "Compliance level depends on transaction volume: Level 1 (6M+ transactions) requires annual onsite audit.",
+        "Non-compliance consequences: fines, increased transaction fees, loss of ability to process cards.",
+        "Applies to: any entity yang stores, processes, atau transmits cardholder data."
+      ],
+      "hipaa": [
+        "HIPAA (Health Insurance Portability and Accountability Act) protect health information di US.",
+        "Rules: Privacy Rule (patient rights), Security Rule (safeguards), Breach Notification Rule.",
+        "Technical safeguards: access controls, audit controls, integrity controls, transmission security.",
+        "Violations: civil penalties ($100-$50,000 per violation) atau criminal charges untuk willful neglect."
+      ],
+      "nist": [
+        "NIST Cybersecurity Framework: voluntary framework untuk manage cybersecurity risks.",
+        "Five functions: Identify, Protect, Detect, Respond, Recover.",
+        "Widely adopted di US government dan private sector untuk structure security programs.",
+        "NIST SP 800-53 provides comprehensive security controls catalog untuk federal systems."
+      ]
+    },
+  
+    "security_tools": {
+      "siem": [
+        "SIEM platforms collect dan analyze security logs dari multiple sources untuk threat detection.",
+        "Popular SIEM: Splunk (powerful but expensive), ELK Stack (open source), IBM QRadar, ArcSight.",
+        "Use cases: compliance reporting, incident investigation, real-time alerting, threat hunting.",
+        "Challenges: high cost, complex configuration, alert fatigue dari false positives.",
+        "Effectiveness depends on: proper log collection, well-tuned correlation rules, skilled analysts."
+      ],
+      "vulnerability_scanners": [
+        "Vulnerability scanners automate detection of security weaknesses dalam systems dan applications.",
+        "Tools: Nessus (commercial), OpenVAS (open source), Qualys, Rapid7 Nexpose.",
+        "Scan types: authenticated (with credentials, more accurate) vs unauthenticated (external perspective).",
+        "Output: prioritized list of vulnerabilities dengan CVSS scores dan remediation recommendations.",
+        "Limitations: tidak detect logic flaws atau complex vulnerabilities, dapat cause disruption, requires regular updates."
+      ],
+      "penetration_testing_tools": [
+        "Metasploit Framework: comprehensive penetration testing platform dengan extensive exploit database.",
+        "Burp Suite: web application security testing tool dengan scanner, intruder, repeater.",
+        "Nmap: network discovery dan port scanning tool, essential untuk reconnaissance.",
+        "Wireshark: network protocol analyzer untuk packet capture dan analysis.",
+        "Kali Linux: specialized Linux distribution dengan pre-installed security tools."
+      ],
+      "password_managers": [
+        "Password managers generate, store, dan autofill complex unique passwords untuk setiap akun.",
+        "Popular options: Bitwarden (open source), 1Password, LastPass, Dashlane.",
+        "Features: encrypted vault, cross-device sync, password generator, security audit.",
+        "Benefits: eliminate password reuse, protect from phishing (autofill hanya di legitimate sites), secure sharing.",
+        "Concerns: single point of failure (mitigated by strong master password dan 2FA), trust in provider."
+      ]
+    }
+  }
