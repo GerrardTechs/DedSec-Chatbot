@@ -1,0 +1,511 @@
+{
+    "intents": [
+      {
+        "intent": "greeting",
+        "patterns": [
+          "halo",
+          "hai",
+          "hi",
+          "hello",
+          "hey",
+          "selamat pagi",
+          "selamat siang",
+          "selamat sore",
+          "selamat malam",
+          "halo bot",
+          "hai chatbot",
+          "permisi",
+          "assalamualaikum",
+          "salam",
+          "hei",
+          "good morning",
+          "good afternoon",
+          "yo",
+          "sup"
+        ],
+        "responses": [
+          "Halo! 👋 Saya Anonymous, chatbot cybersecurity. Ada yang bisa saya bantu?",
+          "Hai! Senang bertemu dengan Anda. Ada pertanyaan tentang keamanan siber?",
+          "Halo! Saya siap membantu Anda dengan informasi cybersecurity.",
+          "Hi! Saya Anonymous. Apa yang ingin Anda ketahui tentang keamanan digital?"
+        ],
+        "context": ""
+      },
+      {
+        "intent": "thanks",
+        "patterns": [
+          "terima kasih",
+          "thanks",
+          "thank you",
+          "makasih",
+          "thx",
+          "tengkyu",
+          "oke terima kasih",
+          "ok thanks",
+          "sip makasih",
+          "mantap",
+          "thanks ya",
+          "makasih ya",
+          "terima kasih banyak",
+          "appreciate it",
+          "thanks bot"
+        ],
+        "responses": [
+          "Sama-sama! 😊 Senang bisa membantu. Jangan ragu untuk bertanya lagi.",
+          "Terima kasih kembali! Semoga informasinya bermanfaat.",
+          "Dengan senang hati! Ada yang lain yang ingin Anda tanyakan?",
+          "Senang bisa membantu! Stay safe online! 🔒"
+        ],
+        "context": ""
+      },
+      {
+        "intent": "goodbye",
+        "patterns": [
+          "bye",
+          "sampai jumpa",
+          "dadah",
+          "see you",
+          "goodbye",
+          "saya pergi dulu",
+          "sudah cukup",
+          "keluar",
+          "selamat tinggal"
+        ],
+        "responses": [
+          "Sampai jumpa! Tetap waspada dan stay safe di dunia digital. 👋",
+          "Terima kasih sudah menggunakan layanan saya. Sampai bertemu lagi! 🛡️",
+          "Goodbye! Remember: cybersecurity adalah tanggung jawab bersama. Stay vigilant! 🔒",
+          "Selamat tinggal! Jaga keamanan data Anda selalu! 👋"
+        ],
+        "context": ""
+      },
+      {
+        "intent": "cybersecurity",
+        "patterns": [
+          "apa itu cybersecurity",
+          "cybersecurity itu apa",
+          "pengertian cybersecurity",
+          "definisi cybersecurity",
+          "jelaskan cybersecurity",
+          "keamanan siber",
+          "keamanan cyber",
+          "cyber security",
+          "apa yang dimaksud cybersecurity",
+          "cybersecurity adalah",
+          "fungsi cybersecurity",
+          "manfaat cybersecurity",
+          "pentingnya cybersecurity"
+        ],
+        "responses": [
+          "Cybersecurity adalah praktik melindungi sistem, jaringan, dan program dari serangan digital. Ini mencakup teknologi, proses, dan praktik yang dirancang untuk melindungi data, perangkat, dan networks dari damage, unauthorized access, atau attacks. Core principles: CIA triad (Confidentiality, Integrity, Availability).",
+          "Keamanan siber adalah upaya komprehensif untuk protect digital assets. Mencakup berbagai domains: network security, application security, information security, operational security, disaster recovery, dan end-user education. Threats terus evolve, sehingga cybersecurity harus proactive dan adaptive.",
+          "Cybersecurity fundamental untuk organizations dan individuals di digital age. Framework populer: NIST Cybersecurity Framework, ISO 27001, CIS Controls. Tujuannya melindungi confidentiality (kerahasiaan), integrity (integritas), dan availability (ketersediaan) data."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "phishing",
+        "patterns": [
+          "apa itu phishing",
+          "phishing itu apa",
+          "pengertian phishing",
+          "definisi phishing",
+          "jelaskan phishing",
+          "phishing artinya",
+          "maksud phishing",
+          "arti phishing",
+          "phishing adalah",
+          "phising",
+          "fisyhing",
+          "contoh phishing",
+          "cara kerja phishing",
+          "bagaimana phishing bekerja",
+          "bahaya phishing",
+          "dampak phishing",
+          "cara mencegah phishing",
+          "cara menghindari phishing",
+          "tips hindari phishing",
+          "ciri ciri phishing",
+          "email phishing",
+          "link phishing",
+          "spear phishing",
+          "whaling",
+          "vishing",
+          "smishing"
+        ],
+        "responses": [
+          "Phishing adalah teknik penipuan cyber di mana penyerang menyamar sebagai entitas terpercaya untuk mencuri informasi sensitif seperti username, password, atau data kartu kredit. Biasanya dilakukan melalui email, pesan, atau website palsu. Ciri-cirinya: URL mencurigakan, kesalahan ejaan, permintaan informasi urgent, dan pengirim tidak dikenal.",
+          "Phishing merupakan serangan social engineering yang memanfaatkan manipulasi psikologis untuk menipu korban memberikan informasi rahasia. Contohnya: email palsu dari bank meminta update data, pesan yang mengklaim Anda memenangkan hadiah, atau link ke website tiruan. Selalu verifikasi sumber sebelum mengklik link!",
+          "Phishing adalah metode serangan yang menggunakan komunikasi elektronik palsu untuk menipu orang agar mengungkapkan informasi pribadi. Tips menghindari: periksa alamat email pengirim, jangan klik link mencurigakan, verifikasi langsung dengan organisasi terkait, gunakan 2FA, dan aktifkan email spam filter."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "malware",
+        "patterns": [
+          "apa itu malware",
+          "malware itu apa",
+          "pengertian malware",
+          "definisi malware",
+          "jelaskan malware",
+          "malware artinya",
+          "maksud malware",
+          "malware adalah",
+          "contoh malware",
+          "jenis malware",
+          "macam malware",
+          "tipe malware",
+          "virus komputer",
+          "worm",
+          "trojan",
+          "spyware",
+          "adware",
+          "rootkit",
+          "cara kerja malware",
+          "bahaya malware",
+          "dampak malware",
+          "cara mencegah malware",
+          "cara mengatasi malware",
+          "antivirus",
+          "antimalware",
+          "cara hapus malware"
+        ],
+        "responses": [
+          "Malware (malicious software) adalah perangkat lunak berbahaya yang dirancang untuk merusak atau mengeksploitasi sistem komputer. Jenis-jenis malware meliputi: virus (mereplikasi diri), worm (menyebar otomatis), trojan (menyamar sebagai program sah), ransomware (mengenkripsi data), spyware (mencuri informasi), dan adware (iklan paksa).",
+          "Malware adalah software jahat yang dibuat untuk menyusup, merusak, atau mencuri informasi dari sistem komputer tanpa sepengetahuan pemiliknya. Malware dapat masuk melalui email phishing, download file mencurigakan, atau exploit kerentanan sistem. Dampaknya bervariasi dari pencurian data pribadi, kerusakan sistem, hingga kontrol penuh atas perangkat Anda.",
+          "Cara mencegah malware: gunakan antivirus/antimalware terpercaya, update sistem operasi dan software secara rutin, hindari mengunduh file dari sumber tidak terpercaya, aktifkan firewall, lakukan backup data secara berkala, dan jangan klik iklan pop-up atau link mencurigakan."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "ransomware",
+        "patterns": [
+          "apa itu ransomware",
+          "ransomware itu apa",
+          "pengertian ransomware",
+          "definisi ransomware",
+          "jelaskan ransomware",
+          "ransomware artinya",
+          "ransomware adalah",
+          "contoh ransomware",
+          "wannacry",
+          "petya",
+          "ryuk",
+          "lockbit",
+          "cara kerja ransomware",
+          "bagaimana ransomware bekerja",
+          "bahaya ransomware",
+          "dampak ransomware",
+          "cara mencegah ransomware",
+          "cara menghindari ransomware",
+          "kena ransomware",
+          "terserang ransomware",
+          "bayar tebusan",
+          "bayar ransom",
+          "file terenkripsi",
+          "data terkunci"
+        ],
+        "responses": [
+          "Ransomware adalah jenis malware yang mengenkripsi file korban dan meminta tebusan (ransom) untuk memberikan kunci dekripsi. Penyerang biasanya meminta pembayaran dalam cryptocurrency. Contoh terkenal: WannaCry (2017), CryptoLocker, Petya, Ryuk. Pencegahan: backup data regular, update sistem, hindari klik link mencurigakan, gunakan antivirus.",
+          "Ransomware adalah ancaman cyber yang sangat merusak. Cara kerjanya: masuk melalui phishing atau exploit → mengenkripsi file penting → menampilkan pesan tebusan → meminta pembayaran. JANGAN bayar tebusan karena tidak ada jaminan data akan dikembalikan dan justru mendorong lebih banyak serangan. Solusi: restore dari backup atau gunakan decryption tools jika tersedia.",
+          "Proteksi ransomware: backup data secara teratur (3-2-1 rule: 3 copies, 2 different media, 1 offsite), update sistem, segmentasi jaringan, training karyawan, gunakan email filtering, disable macro di Office, implementasikan application whitelisting, dan buat incident response plan."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "social_engineering",
+        "patterns": [
+          "apa itu social engineering",
+          "social engineering itu apa",
+          "pengertian social engineering",
+          "definisi social engineering",
+          "jelaskan social engineering",
+          "rekayasa sosial",
+          "soceng",
+          "contoh social engineering",
+          "pretexting",
+          "baiting",
+          "tailgating",
+          "quid pro quo",
+          "cara kerja social engineering",
+          "teknik social engineering",
+          "bahaya social engineering",
+          "cara mencegah social engineering",
+          "tips hindari social engineering"
+        ],
+        "responses": [
+          "Social engineering adalah teknik manipulasi psikologis yang digunakan penyerang untuk menipu orang agar mengungkapkan informasi rahasia atau melakukan tindakan yang membahayakan keamanan. Ini mengeksploitasi emosi manusia seperti rasa takut, keserakahan, atau keinginan membantu. Jenis-jenisnya: phishing, pretexting, baiting, quid pro quo, dan tailgating.",
+          "Social engineering adalah 'hacking' manusia, bukan sistem. Penyerang memanfaatkan trust dan kelalaian manusia sebagai titik lemah keamanan. Contoh: seseorang menelepon mengaku dari IT support dan meminta password, email urgent yang meminta transfer dana, atau USB drive 'gratis' yang berisi malware. Pertahanan terbaik: skeptisisme sehat dan verifikasi identitas.",
+          "Social engineering berbahaya karena menargetkan weakest link dalam security - manusia. Teknik umum: impersonation (menyamar sebagai orang lain), authority abuse (mengaku dari posisi berkuasa), urgency creation (menciptakan tekanan waktu). Perlindungan: jangan share credentials, verifikasi request yang tidak biasa, ikuti security policy, dan report suspicious activity."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "password_security",
+        "patterns": [
+          "password security",
+          "keamanan password",
+          "password yang aman",
+          "password kuat",
+          "cara membuat password",
+          "gimana bikin password",
+          "password yang bagus",
+          "tips password",
+          "contoh password kuat",
+          "password manager",
+          "aplikasi password manager",
+          "bitwarden",
+          "lastpass",
+          "2fa",
+          "two factor authentication",
+          "autentikasi dua faktor",
+          "mfa",
+          "apa itu 2fa",
+          "cara kerja 2fa",
+          "google authenticator",
+          "password bocor",
+          "ganti password",
+          "lupa password"
+        ],
+        "responses": [
+          "Password yang kuat sangat penting untuk keamanan! Tips membuat password aman: 1) Minimal 12-16 karakter, 2) Kombinasi huruf besar-kecil, angka, dan simbol, 3) Hindari informasi pribadi (nama, tanggal lahir), 4) Gunakan password unik untuk setiap akun, 5) Pertimbangkan password manager seperti Bitwarden, 1Password, atau LastPass, 6) Aktifkan 2FA.",
+          "Password adalah pertahanan pertama akun Anda! Buat password yang kompleks dengan menggabungkan karakter acak, atau gunakan passphrase (kalimat panjang yang mudah diingat tapi sulit ditebak). JANGAN: gunakan password yang sama untuk berbagai akun, simpan password di notes yang tidak terenkripsi, atau bagikan password Anda. Gunakan password manager untuk mengelola banyak password yang kuat.",
+          "Two-Factor Authentication (2FA) menambah layer security beyond password. Metode 2FA: SMS codes (kurang aman), authenticator apps (Google Authenticator, Authy - lebih aman), hardware tokens (YubiKey), atau biometric (fingerprint, face ID). Bahkan jika password Anda dicuri, penyerang tidak dapat login tanpa faktor kedua. Aktifkan 2FA di semua akun penting!"
+        ],
+        "context": ""
+      },
+      {
+        "intent": "ddos_attack",
+        "patterns": [
+          "apa itu ddos",
+          "ddos itu apa",
+          "pengertian ddos",
+          "definisi ddos",
+          "ddos attack",
+          "serangan ddos",
+          "distributed denial of service",
+          "dos attack",
+          "beda dos ddos",
+          "dos vs ddos",
+          "contoh ddos",
+          "cara kerja ddos",
+          "bagaimana ddos bekerja",
+          "jenis ddos",
+          "botnet",
+          "bahaya ddos",
+          "dampak ddos",
+          "cara mencegah ddos",
+          "cara mengatasi ddos",
+          "ddos protection",
+          "cloudflare ddos"
+        ],
+        "responses": [
+          "DDoS (Distributed Denial of Service) adalah serangan yang bertujuan membuat website atau layanan online tidak dapat diakses dengan membanjiri target dengan traffic palsu dari banyak sumber. Berbeda dengan DoS (satu sumber), DDoS menggunakan botnet (jaringan komputer yang terinfeksi) untuk melakukan serangan dari berbagai lokasi secara bersamaan, membuatnya lebih sulit untuk diblokir.",
+          "Serangan DDoS bekerja dengan membanjiri server target dengan request yang sangat banyak hingga server overload dan tidak dapat melayani user legitimate. Jenis-jenis DDoS: volumetric attacks (bandwidth flooding), protocol attacks (mengeksploitasi kelemahan protocol seperti SYN flood), dan application layer attacks (HTTP flood, Slowloris). Mitigasi: CDN, rate limiting, dan layanan anti-DDoS.",
+          "DDoS attack dapat melumpuhkan website, aplikasi, atau layanan online dengan membuat sumber daya sistem habis. Dampaknya: downtime, kerugian finansial, dan reputasi rusak. Pencegahan: gunakan CDN (Content Delivery Network) seperti Cloudflare atau Akamai, implement rate limiting, WAF (Web Application Firewall), overprovisioning bandwidth, dan layanan DDoS protection."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "sql_injection",
+        "patterns": [
+          "apa itu sql injection",
+          "sql injection itu apa",
+          "pengertian sql injection",
+          "sqli",
+          "sql inject",
+          "contoh sql injection",
+          "cara kerja sql injection",
+          "bagaimana sql injection bekerja",
+          "jenis sql injection",
+          "union sql injection",
+          "blind sql injection",
+          "bahaya sql injection",
+          "dampak sql injection",
+          "cara mencegah sql injection",
+          "cara mengatasi sql injection",
+          "prepared statement",
+          "parameterized query"
+        ],
+        "responses": [
+          "SQL Injection adalah serangan yang memanfaatkan celah keamanan pada aplikasi web untuk menyisipkan kode SQL berbahaya ke dalam query database. Penyerang dapat mengakses, memodifikasi, atau menghapus data dalam database. Ini bisa mengakibatkan kebocoran data sensitif, manipulasi database, atau bahkan kontrol penuh atas server. SQL Injection termasuk dalam OWASP Top 10.",
+          "SQL Injection terjadi ketika aplikasi tidak memvalidasi input user dengan benar. Penyerang bisa bypass authentication, mengambil seluruh isi database, atau bahkan execute command di server. Contoh sederhana: memasukkan ' OR '1'='1 di field login untuk bypass authentication. Jenis: Union-based, Error-based, Blind SQL Injection, Time-based.",
+          "Cara mencegah SQL Injection: gunakan Prepared Statements dan Parameterized Queries untuk memisahkan kode SQL dari data user, implementasikan input validation yang ketat (whitelist allowed characters, escape special characters), gunakan ORM (Object-Relational Mapping), terapkan principle of least privilege (database user aplikasi hanya punya permission minimal), dan gunakan Web Application Firewall (WAF)."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "xss_attack",
+        "patterns": [
+          "apa itu xss",
+          "xss itu apa",
+          "pengertian xss",
+          "xss attack",
+          "cross site scripting",
+          "serangan xss",
+          "contoh xss",
+          "cara kerja xss",
+          "bagaimana xss bekerja",
+          "jenis xss",
+          "stored xss",
+          "reflected xss",
+          "dom based xss",
+          "bahaya xss",
+          "dampak xss",
+          "cara mencegah xss",
+          "cara mengatasi xss",
+          "content security policy",
+          "csp"
+        ],
+        "responses": [
+          "XSS (Cross-Site Scripting) adalah vulnerability yang memungkinkan penyerang menyisipkan script berbahaya (biasanya JavaScript) ke dalam halaman web yang dilihat oleh user lain. Ini bisa digunakan untuk mencuri cookies, session tokens, atau informasi sensitif lainnya. Ada tiga jenis utama: Stored XSS (persistent), Reflected XSS (non-persistent), dan DOM-based XSS.",
+          "XSS attack mengeksploitasi kepercayaan user terhadap website. Script jahat yang diinjeksi bisa melakukan berbagai hal: mencuri credentials, redirect ke phishing site, atau memodifikasi tampilan halaman. Contoh: penyerang input <script>alert('XSS')</script> di comment form, dan script ini dieksekusi di browser semua user yang melihat comment tersebut.",
+          "Cara mencegah XSS: sanitize dan encode user input sebelum di-render (gunakan HTML entity encoding, JavaScript encoding, URL encoding tergantung konteks), implementasikan Content Security Policy (CSP) untuk membatasi sumber script yang boleh dieksekusi, gunakan HttpOnly flag pada cookies untuk mencegah akses via JavaScript, validate input di server-side, dan gunakan framework yang sudah built-in XSS protection."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "firewall",
+        "patterns": [
+          "apa itu firewall",
+          "firewall itu apa",
+          "pengertian firewall",
+          "definisi firewall",
+          "fungsi firewall",
+          "kegunaan firewall",
+          "manfaat firewall",
+          "cara kerja firewall",
+          "bagaimana firewall bekerja",
+          "jenis firewall",
+          "tipe firewall",
+          "hardware firewall",
+          "software firewall",
+          "next generation firewall",
+          "ngfw",
+          "waf",
+          "windows firewall",
+          "cara setting firewall"
+        ],
+        "responses": [
+          "Firewall adalah sistem keamanan jaringan yang memonitor dan mengontrol lalu lintas jaringan berdasarkan aturan keamanan yang telah ditentukan. Fungsinya seperti 'tembok pembatas' antara jaringan internal yang aman dan jaringan eksternal yang tidak terpercaya (seperti internet). Firewall dapat berupa hardware, software, atau kombinasi keduanya.",
+          "Firewall bekerja sebagai penghalang pelindung yang memeriksa setiap paket data yang masuk dan keluar dari jaringan Anda. Ada beberapa jenis: packet-filtering firewall (filter berdasarkan IP/port), stateful inspection firewall (track connection state), proxy firewall (intermediary), dan next-generation firewall (NGFW - dengan IPS, application awareness, advanced threat protection). Firewall memblokir akses tidak sah sambil mengizinkan komunikasi yang legitimate.",
+          "Firewall adalah komponen penting dalam strategi defense-in-depth cybersecurity. Ia menganalisis traffic berdasarkan port, protocol, dan alamat IP untuk menentukan apakah traffic tersebut aman atau berbahaya. Firewall modern juga dapat mendeteksi dan memblokir malware, melakukan deep packet inspection, dan bahkan menggunakan machine learning untuk mengidentifikasi ancaman baru."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "encryption",
+        "patterns": [
+          "apa itu encryption",
+          "encryption itu apa",
+          "pengertian encryption",
+          "enkripsi",
+          "apa itu enkripsi",
+          "cara kerja encryption",
+          "bagaimana encryption bekerja",
+          "jenis encryption",
+          "symmetric encryption",
+          "asymmetric encryption",
+          "aes",
+          "rsa",
+          "public key",
+          "private key",
+          "end to end encryption",
+          "e2ee",
+          "ssl",
+          "tls",
+          "https",
+          "beda http https",
+          "hash",
+          "hashing"
+        ],
+        "responses": [
+          "Enkripsi adalah proses mengubah data atau informasi menjadi kode rahasia untuk mencegah akses tidak sah. Data asli (plaintext) diubah menjadi format yang tidak dapat dibaca (ciphertext) menggunakan algoritma dan kunci enkripsi. Hanya pihak yang memiliki kunci dekripsi yang tepat yang dapat mengembalikan data ke bentuk aslinya. Contoh algoritma: AES, RSA, SSL/TLS.",
+          "Encryption adalah teknik fundamental dalam cybersecurity untuk melindungi kerahasiaan data. Ada dua tipe utama: Symmetric encryption (kunci sama untuk enkripsi dan dekripsi, contoh: AES - cepat untuk data besar), dan Asymmetric encryption (menggunakan public key dan private key, contoh: RSA - digunakan untuk key exchange dan digital signatures). Enkripsi digunakan dalam HTTPS, VPN, messaging apps, dan penyimpanan data sensitif.",
+          "HTTPS (HTTP Secure) menggunakan SSL/TLS encryption untuk melindungi data yang ditransmisikan antara browser dan server. Bedanya dengan HTTP: data dienkripsi, mencegah eavesdropping dan man-in-the-middle attacks. End-to-end encryption (E2EE) seperti di WhatsApp memastikan hanya pengirim dan penerima yang dapat membaca pesan, bahkan provider tidak bisa. Selalu pastikan website menggunakan HTTPS (ada icon gembok di address bar)."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "vpn",
+        "patterns": [
+          "apa itu vpn",
+          "vpn itu apa",
+          "pengertian vpn",
+          "vpn artinya",
+          "virtual private network",
+          "fungsi vpn",
+          "kegunaan vpn",
+          "manfaat vpn",
+          "cara kerja vpn",
+          "bagaimana vpn bekerja",
+          "jenis vpn",
+          "contoh vpn",
+          "vpn gratis",
+          "vpn terbaik",
+          "nordvpn",
+          "expressvpn",
+          "cara pakai vpn",
+          "vpn aman ga",
+          "vpn vs proxy"
+        ],
+        "responses": [
+          "VPN (Virtual Private Network) adalah layanan yang menciptakan koneksi aman dan terenkripsi antara perangkat Anda dan internet. VPN menyembunyikan alamat IP Anda, mengenkripsi traffic internet, dan membuat aktivitas online Anda lebih privat. Manfaatnya: bypass geo-restrictions, akses aman di WiFi publik, melindungi privasi dari ISP dan tracking, dan mengamankan remote work.",
+          "VPN bekerja dengan membuat 'tunnel' terenkripsi untuk data Anda melewati internet. Semua traffic dari perangkat Anda akan melewati server VPN terlebih dahulu sebelum mencapai tujuan. Ini memberikan anonimitas dan keamanan, terutama penting saat menggunakan jaringan publik yang tidak aman. Pilih VPN yang tidak menyimpan logs (no-log policy), menggunakan enkripsi kuat, dan memiliki reputasi baik.",
+          "VPN adalah tool penting untuk privacy dan security online. Ia mengenkripsi semua data yang dikirim dan diterima, mencegah ISP, pemerintah, atau hacker melihat aktivitas online Anda. VPN populer: NordVPN, ExpressVPN, Surfshark, ProtonVPN. Tips: gunakan VPN saat connect ke WiFi publik, pilih VPN dengan kill switch feature, dan avoid free VPNs yang mungkin sell your data."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "zero_day",
+        "patterns": [
+          "apa itu zero day",
+          "zero day itu apa",
+          "pengertian zero day",
+          "zero day vulnerability",
+          "zero day exploit",
+          "zero day attack",
+          "0 day",
+          "0day",
+          "contoh zero day",
+          "stuxnet",
+          "eternalblue",
+          "cara kerja zero day",
+          "bahaya zero day",
+          "cara mencegah zero day"
+        ],
+        "responses": [
+          "Zero-day adalah vulnerability yang belum diketahui oleh vendor software atau belum ada patch-nya. Disebut 'zero-day' karena developer memiliki nol hari untuk memperbaiki masalah sebelum bisa dieksploitasi. Zero-day exploits sangat berbahaya karena tidak ada defense yang spesifik. Contoh terkenal: Stuxnet (menyerang centrifuge nuklir Iran), EternalBlue (digunakan WannaCry dan NotPetya).",
+          "Zero-day vulnerability adalah security flaw yang belum dipublikasikan dan belum ada patch resmi. Penyerang yang menemukan zero-day bisa mengeksploitasinya sebelum vendor mengetahui masalahnya. Zero-day exploits sangat valuable di black market dan sering digunakan oleh advanced persistent threat (APT) groups atau nation-state actors. Bug bounty programs mendorong researcher menemukan dan melaporkan zero-day secara responsible.",
+          "Mitigasi zero-day: gunakan security in depth (multiple layers), monitor anomali behavior dengan SIEM, implement application whitelisting, sandbox untrusted programs, segment network untuk limit lateral movement, gunakan HIDS/HIPS untuk deteksi exploit attempts, regular update dan patch management, dan virtual patching via WAF atau IPS untuk proteksi sementara sebelum official patch tersedia."
+        ],
+        "context": ""
+      },
+      {
+        "intent": "man_in_the_middle",
+        "patterns": [
+          "apa itu man in the middle",
+          "man in the middle itu apa",
+          "mitm",
+          "mitm attack",
+          "serangan mitm",
+          "cara kerja mitm",
+          "bagaimana mitm bekerja",
+          "jenis mitm",
+          "arp spoofing",
+          "dns spoofing",
+          "ssl stripping",
+          "wifi eavesdropping",
+          "evil twin",
+          "contoh mitm",
+          "bahaya mitm",
+          "cara mencegah mitm",
+          "wifi public bahaya"
+        ],
+        "responses": [
+          "Man-in-the-Middle (MITM) adalah serangan di mana penyerang menyadap komunikasi antara dua pihak tanpa sepengetahuan mereka. Penyerang bisa membaca, memodifikasi, atau mencuri data yang dikirimkan. Contoh teknik: WiFi eavesdropping (monitoring traffic di WiFi publik), ARP spoofing (redirect traffic di local network), DNS spoofing (redirect ke fake website), SSL stripping (downgrade HTTPS ke HTTP).",
+          "MITM attack terjadi ketika attacker menempatkan diri di antara komunikasi victim dan destination. Ini sering terjadi di WiFi publik yang tidak aman. Penyerang bisa steal credentials, inject malware, atau redirect traffic ke phishing sites. Contoh scenario: penyerang membuat WiFi hotspot palsu 'Free Airport WiFi' untuk intercept traffic pengunjung, atau di cafe dengan WiFi publik tanpa enkripsi."
+        ]
+    }
+    ]
+}
